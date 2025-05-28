@@ -7,13 +7,13 @@ Set your desired delay, click to start, and let it handle the rest — perfect f
 
 ## 🚀 Features
 
-- 🔘 GUI interface to set click delay
-- ⌛ Adjustable delay (in milliseconds)
+- 🔘 GUI interface to set click delay and Hotkeys
+- ⌛ Adjustable delay
 - 🖱️ Simulates left mouse clicks
-- 🎮 Hotkey controlled:
+- 🎮 Deafult Hotkeys:
   - `F2` to Start
   - `F1` to Stop and Exit
-- 🪟 Clean, Minimal interface (Really Barebones)
+- 🪟 Clean, Minimal interface
 
 ---
 
@@ -22,9 +22,10 @@ Set your desired delay, click to start, and let it handle the rest — perfect f
 1. Download and install [AutoHotkey v2](https://www.autohotkey.com/download/).
 2. Clone or download this repository.
 3. Run the `autoclicker.ahk` file.
-4. Enter your desired delay in milliseconds (e.g., `1000` = 1 second).
+4. Enter your desired delay (e.g., `1000` = 1 second).
 5. Click **Enter**.
-6. Press `F2` to start auto-clicking.  
+6. (if desired) Make custom Keybinds
+7. Press `F2` to start auto-clicking.  
    Press `F1` to stop and exit.
 
 ---
