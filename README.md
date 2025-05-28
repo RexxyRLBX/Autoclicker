@@ -1,4 +1,4 @@
-# AutoClicker v1.0
+# AutoClicker v1.1
 
 A simple and customizable AutoClicker built with [AutoHotkey v2](https://www.autohotkey.com/).  
 Set your desired delay, click to start, and let it handle the rest — perfect for automating repetitive clicking tasks.
