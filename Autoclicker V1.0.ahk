@@ -8,11 +8,15 @@ myGui.Add("Button", "w200 h50", "Finish").OnEvent("Click", EnterPressed)
 myGui.Show("w220 h100")
 
 EnterPressed(*) {
-    Msgbox "Ready to roll. Press F1 to Stop F2 to Start. Set Delay: " editBox.Value / 1000 " seconds."
+    if editBox.Value = 0
+        {
+        Msgbox "IMPORTANT: 0 Delay may Cause system instability. USE AT YOUR OWN RISK."
+        }
+    Msgbox "Ready to roll. Press F1 to Start and F2 to Stop. Set Delay: " editBox.Value / 1000 " seconds."
     myGui.hide()
     }
 
-    F2::
+    F1::
     {
      loop
         {
@@ -21,7 +25,7 @@ EnterPressed(*) {
         }
     }
 
-F1::
+F2::
 {
     Msgbox "Autoclicker Stopped, Closing on Exit."
     ExitApp()
